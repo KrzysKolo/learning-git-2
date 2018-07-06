@@ -1,3 +1,19 @@
 @charset "utf-8";
 /* CSS Document */
+$basic-font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+$basic-font-size: 16px;
+$basic-font-weight: bold;
+$basic-font-color: #039;
+@mixin naglowek-h1 {
+	letter-spacing: 3px;
+	border-bottom: #CDC9DE double 2px;
+	font-family: $basic-font-weight;
+	color: $basic-font-color;
+}
 
+body {
+	font-size: $basic-font-size;
+}
+h1 {
+	@include naglowek-h1;
+}

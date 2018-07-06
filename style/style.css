@@ -1,3 +1,11 @@
 /* CSS Document */
+body {
+  font-size: 16px; }
+
+h1 {
+  letter-spacing: 3px;
+  border-bottom: #CDC9DE double 2px;
+  font-family: bold;
+  color: #039; }
 
 /*# sourceMappingURL=style.css.map */
